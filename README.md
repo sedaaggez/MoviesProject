@@ -27,3 +27,7 @@ const val API_KEY = "your_api_key"
 - Room-> SQLite, Coroutine,Threading
 - Navigation
 - Infinite scroll list, Pagination 
+
+# License
+
+This project is licensed under the  GNU General Public License v3.0 License - see the [LICENSE](LICENSE) file for details.
