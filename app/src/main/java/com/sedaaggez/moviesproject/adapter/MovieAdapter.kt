@@ -35,7 +35,6 @@ class MovieAdapter(val resultList: ArrayList<MoviesResult>) :
     }
 
     fun updateResultList(newResultList: List<MoviesResult>) {
-        resultList.clear()
         resultList.addAll(newResultList)
         notifyDataSetChanged()
     }

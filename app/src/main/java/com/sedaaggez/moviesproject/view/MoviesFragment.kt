@@ -59,12 +59,7 @@ class MoviesFragment : Fragment() {
 
                     if (page < totalPage && findLastCompletelyVisibleItemPosition == itemCount - 1) {
                         page++
-                        Handler(Looper.getMainLooper()).postDelayed({
                             viewModel.getData(API_KEY, page)
-                            linearLayoutManager.scrollToPosition(0)
-                        }, 5000)
-
-
                     }
                 }
 
